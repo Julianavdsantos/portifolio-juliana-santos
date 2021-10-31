@@ -1,0 +1,186 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background:url(imagens/cidade.jpg); 
+}
+
+header{
+  background-color: #C21975;
+  opacity: 0.5;
+  justify-content: space-between;
+  height:30px;
+  position: fixed;
+  width: 100%;
+ 
+
+}
+#icones{
+  font-size: 30px;
+  
+}
+#logo{
+  position: relative;
+  left: 10px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+ 
+position: absolute;
+margin: 30px;
+width: 88px;
+height: 88px;
+left: 0px;
+top: 34px;
+object-fit: cover;
+clip-path: circle(50% at 50% 50%);
+ border: crimson;
+
+ background: linear-gradient(0deg, #E09B3D -558.14%, #C74C4D -318.69%, #C21975 -79.24%, #7024C4 240.03%);
+}
+.all-information{
+  background-color: rgba(10, 1, 15, 0.5);
+  width: 100%;
+  height: 400px;
+ 
+}
+.information{
+  position: relative;
+  height: 78px;
+  width: 266px;
+  left: 20px;
+  top: 130px;
+  border-radius: nullpx;
+  color: blueviolet;
+  top: 150px;
+
+  
+}
+
+.redes{
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  top: 1rem;
+  
+ }
+
+#linkedin{
+  height: 26px;
+width: 102.28655242919922px;
+left: 0px;
+top: 0px;
+border-radius: 4px;
+padding: 6px, 42px, 6px, 42px;
+background-color: darkmagenta;
+color: white;
+
+}
+#github{
+  height: 26px;
+width: 102.28655242919922px;
+left: 0px;
+top: 0px;
+border-radius: 4px;
+padding: 6px, 42px, 6px, 42px;
+background-color: darkmagenta;
+color: white;
+}
+#E-mail{
+  height: 26px;
+width: 102.28655242919922px;
+left: 0px;
+top: 0px;
+border-radius: 4px;
+padding: 6px, 42px, 6px, 42px;
+background-color: darkmagenta;
+color: white;
+}
+
+#github:hover{
+  background-color: #C21975;
+}
+#E-mail:hover{
+  background-color: #C21975;
+}
+
+#linkedin:hover{
+  background-color: #C21975;
+}
+
+.projetos{
+  position: relative;
+  display: flex;
+  margin: 10px;
+}
+
+.projeto1{
+ height: 200px;
+ margin: 10px;
+width:  200px;
+left: 0.07421875px;
+top: 0px;
+border-radius: 0px;
+background-color: #eee6f7;
+
+}
+.projeto2{
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  left: 10px;
+  top: 0px;
+  border-radius: 0px;
+  background-color: #e6edf7;
+   
+ }
+
+ .projeto3{
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  left: 10px;
+  top: 0px;
+  border-radius: 0px;
+  background-color: #e6edf7;
+   
+ }
+
+
+ .projeto4{
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  left: 10px;
+  top: 0px;
+  border-radius: 0px;
+  background-color: #e6edf7;
+   
+ }
+ .projeto5{
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  left: 10px;
+  top: 0px;
+  border-radius: 0px;
+  background-color: #e6edf7;
+   
+ }
+ .projeto6{
+  height: 200px;
+  width: 200px;;
+  margin: 10px;
+  left: 10px;
+  top: 0px;
+  border-radius: 0px;
+  background-color: #e6edf7;
+   
+ }
+
+ footer{
+  background-color: rgba(10, 1, 15, 0.5);
+  color: #e6edf7;
+ }
